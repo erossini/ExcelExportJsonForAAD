@@ -1,4 +1,4 @@
-# Excel Export Json For Azure Active Directory
+# Excel Export JSON for Azure Active Directory
 A VBA script that converts Excel tables to JSON format and exports the data to a file at the location of your choice, in particular for `Groups` and `AppRoles` for `Azure Active Directory`.
 
 ![image](https://github.com/erossini/ExcelExportJsonForAAD/assets/9497415/480b40c8-cc85-4c1e-92f2-fcd8f59d41fb)
@@ -65,7 +65,7 @@ In an Excel file, you map the `Groups` for `Azure Active Directory` that you wan
 | {ENV}_Dev_Leads    | {ENV}_UI       | AdminImporter |
 | {ENV}_Dev_Leads    | {ENV}_UI       | AdminViewer   |
 
-Now, the issue is how to create a Json file for this table. There in an export in Excel that create a Json but not in the format it is required for the Active Directory. By the way, the expected `json` is like the following one
+Now, the issue is how to create a Json file for this table. There is an export in Excel that creates a Json but not in the format that is required for the Active Directory. By the way, the expected `json` is like the following one
 
 ```
 {
@@ -279,4 +279,4 @@ Because this structure is a little but complex, I have to create something my ow
 
 ![image](https://github.com/erossini/ExcelExportJsonForAAD/assets/9497415/2dda0ff4-40bf-429a-b6d1-306fbfb14b5e)
 
-Then, I can select one or more table I want to export. Remember this script generates only one `json` file. After that, I have to choose the location and the name of the file I want to create.
+Then, I can select one or more tables I want to export. Remember this script generates only one `json` file. After that, I have to choose the location and the name of the file I want to create.
